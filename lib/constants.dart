@@ -6,6 +6,8 @@ const String _imageUrl =
 
 const transBlackColor = Colors.black26;
 
+const circularRadius = Radius.circular(32.0);
+
 const faceDetectScreenDecoImage =
     DecorationImage(image: NetworkImage(_imageUrl), fit: BoxFit.cover);
 
